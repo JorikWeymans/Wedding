@@ -1,5 +1,8 @@
 # JMWedding
- wedding website in react
+ wedding website in react, this is an extract of a website I made for my own wedding but for privacy reasons this code is published
+
+ ## Website URL
+http://wedding.bearlyhumancode.com/
 
 
 ## Package versions ##
