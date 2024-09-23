@@ -1,0 +1,60 @@
+@import "./assets/Fonts/Exo/Exo.css";
+@import "./assets/Fonts/JosefinSans/JosefinSans.css";
+
+@tailwind base;
+
+@tailwind utilities;
+
+@font-face {
+    font-family: 'babylonica';
+    src: url(./assets/Fonts/Babyloncia/Babylonica-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bestfriendSignature';
+    src: url(./assets/Fonts/BestfriendSignature/BestfriendSignature.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+.section-title {
+    @apply text-5xl font-bold pt-24 pb-16 px-10 text-accent-primary;
+    @apply max-md:text-4xl max-md:pt-16 max-md:pb-12 max-md:px-4 text-accent-primary;
+}
+
+.site-padding {
+    @apply px-site max-md:px-siteMobile max-xl:px-siteXl max-lg:px-siteLg 2xl:px-siteWide min-[1900px]:px-siteUltraWide;
+}
+
+.practical-info-subtitle {
+    @apply text-4xl max-md:text-4xl max-lg:text-3xl font-bold text-accent-secondary pt-8 pb-4
+}
+
+.practical-info-image {
+    @apply w-full h-[240px] 2xl:h-[300px] object-cover
+}
+
+.fakeBold-neutral-light-2 {
+    text-shadow: -0.5px -0.5px 0 theme("colors.neutral-light2"), 0.5px -0.5px 0 theme("colors.neutral-light2"), -0.5px 0.5px 0 theme("colors.neutral-light2"), 0.5px 0.5px 0 theme("colors.neutral-light2");
+}
+
+.fakeBold-accent-secondary {
+    text-shadow: -0.5px -0.5px 0 theme("colors.accent-secondary"),
+        0.5px -0.5px 0 theme("colors.accent-secondary"),
+        -0.5px 0.5px 0 theme("colors.accent-secondary"),
+        0.5px 0.5px 0 theme("colors.accent-secondary");
+}
+
+/* Spinner */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

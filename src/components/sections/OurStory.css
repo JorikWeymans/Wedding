@@ -1,0 +1,10 @@
+.timeline-container {
+    position: relative;
+}
+
+.timeline-container::after {
+    @apply bg-neutral-dark1 content-[''] absolute w-1 h-full left-[calc(50%_-_2px)] z-[1] top-0;
+    @apply max-md:left-[1.8rem];
+    height: var(--timeline-current-height, 5%);
+    transition: all 0.2s;
+}

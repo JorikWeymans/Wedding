@@ -1,0 +1,37 @@
+.ls-content {
+    transition: opacity .3s linear, max-height .3s linear;
+    overflow: hidden;
+    display: block;
+    max-height: 0;
+    opacity: 0;
+}
+
+.ls-hide {
+    max-height: 25px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.ls-show {
+    max-height: 75px;
+    opacity: 1;
+    pointer-events: all;
+}
+
+.ls-arrow {
+    transition: all 0.3s linear;
+}
+
+.ls-arrow-show {
+    transform: rotate(180deg);
+}
+
+.ls-content a:hover {
+    background-color: #f1f1f1
+}
+
+
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}

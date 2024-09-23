@@ -1,0 +1,33 @@
+:root {
+    --as-fade-in-time: 0.5s;
+}
+
+.as-fade-in-bottom {
+    opacity: 0;
+}
+
+._as-fade-in-bottom {
+
+    transition: opacity var(--as-fade-in-time) ease-in-out 0.1s;
+    animation: slideIn var(--as-fade-in-time) ease-in-out;
+    opacity: 1;
+    --is-transitioned: true;
+
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(10%);
+        filter: blur(3px);
+        --is-transitioned: false;
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        filter: blur(0);
+        --is-transitioned: true;
+        opacity: 1;
+
+    }
+}
