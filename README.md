@@ -7,10 +7,10 @@ http://wedding.bearlyhumancode.com/
 # In this project, I utilized:
  - ✔ React (with Vite)
  - ✔ Color theory to choose harmonious tones for a wedding theme
- ✔ JavaScript for functionality
- ✔ TailwindCSS for streamlined styling
- ✔ Figma for initial design mockups
- ✔ Custom font selection to create a unique, personal feel
+ - ✔ JavaScript for functionality
+ - ✔ TailwindCSS for streamlined styling
+ - ✔ Figma for initial design mockups
+ * ✔ Custom font selection to create a unique, personal feel
  ✔ ...
 
 # 🛠 Project Details:
