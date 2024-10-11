@@ -30,5 +30,7 @@ This project was not only a labor of love for our wedding but also a chance to d
 ## Package versions ##
 Vite 5.4.2
 React 18.3.1
+node 20.12.0
 npm 10.5.0
+
 
